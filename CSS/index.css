@@ -1,0 +1,68 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    background-color: #F7F8F3;
+}
+.nav-link.active{
+    background-color: #dfdfdf;
+}
+
+a.navbar-brand {
+    width: 120px;
+    
+}
+p,h2{
+	 text-align:center;
+   
+}
+
+.store .select {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+.store .buy {
+    background-color: #dfdfdf;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    border: 0;
+}
+
+.store .buy:hover {
+    background-color: #006666;
+    color: white;
+}
+
+.store .select.orange.active ,
+.store .select:hover.orange {
+    box-shadow: 0 0 10px #ef8e005c;
+}
+.store .select.apple.active ,
+.store .select:hover.apple {
+    box-shadow: 0 0 10px #f443365c;
+}
+.following a {
+    font-size: 12px;
+}
+
+.following a img {
+    width: 80px;
+}
+
+footer {
+    background-color: #006666;
+    bottom: 0;
+    position: absolute;
+}
